@@ -1,0 +1,1 @@
+export default function UiPreview(){return <div style={{padding:40,fontFamily:"Arial",background:"#070b12",color:"white",minHeight:"100vh"}}><h1>Aura Farming</h1><p>SIMULATED PROP TRADING</p><button>Enter Trader Portal</button></div>}
