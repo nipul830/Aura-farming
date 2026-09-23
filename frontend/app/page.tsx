@@ -1,0 +1,3 @@
+"use client";
+import {useState} from "react";
+export default function Home(){const [logged,setLogged]=useState(false);return <main style={{padding:40,fontFamily:"Arial"}}><h1>Aura Farming</h1>{!logged?<><p>Simulated CFD Trading Platform</p><button onClick={()=>setLogged(true)}>Demo Login</button></>:<><h2>Dashboard</h2><p>Account: AURA-100001</p><p>Balance: $10,000</p><p>Equity: $10,000</p><p>Trading is simulated only.</p></>}</main>}
